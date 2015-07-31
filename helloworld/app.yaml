@@ -7,6 +7,9 @@ handlers:
 - url: /stylesheets
   static_dir: stylesheets
 
+- url: /helloworld.*
+  script: helloworld.php
+
 - url: /hellouser.*
   script: hellouser.php
 
@@ -14,4 +17,4 @@ handlers:
   script: webform.php
 
 - url: /.*
-  script: helloworld.php
+  script: index.php
