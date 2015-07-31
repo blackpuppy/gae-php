@@ -1,4 +1,7 @@
 <html>
+<head>
+  <link type="text/css" rel="stylesheet" href="/stylesheets/main.css" />
+</head>
   <body>
     <?php
     if (array_key_exists('content', $_POST)) {
