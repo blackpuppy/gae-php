@@ -4,5 +4,14 @@ runtime: php55
 api_version: 1
 
 handlers:
+- url: /stylesheets
+  static_dir: stylesheets
+
+- url: /hellouser.*
+  script: hellouser.php
+
+- url: /sign.*
+  script: webform.php
+
 - url: /.*
   script: helloworld.php
