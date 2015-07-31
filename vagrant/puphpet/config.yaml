@@ -24,6 +24,7 @@ vagrantfile:
             virtualbox:
                 modifyvm:
                     natdnshostresolver1: 'on'
+                    name: 'GAE PHP'
                 showgui: '0'
             vmware:
                 numvcpus: 1
@@ -41,7 +42,7 @@ vagrantfile:
         synced_folder:
             vflsf_ng5wq7plro7b:
                 source: ../
-                target: /gae/php
+                target: /gae-php
                 sync_type: default
                 smb:
                     smb_host: ''
